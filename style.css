@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Crushed|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Crushed|Open+Sans+Condensed:300');
 *{
     box-sizing: border-box;
 }
@@ -21,7 +21,7 @@ h1{
 }
 p{
     color: white;
-    font-family: 'Oswald Extralight';
+    font-family: 'Open Sans Condensed';
     font-size: 1.2em;
 }
 #home{
@@ -87,7 +87,12 @@ h1{
 .style{
     width: 100%;
     height: 100%;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-gap: .4em;
+    align-self: center;
+    margin:0 auto;
+    text-align: center;
 }
 .text>p{
     color: whitesmoke;
@@ -175,72 +180,12 @@ nav a:hover {
     width: 100%;
 }
 
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 400px;
-  position: relative;
-  margin: auto;
-    z-index: 0;
-}
-
-
 a{
     text-decoration: none;
     color: white;
 }
 div>a:visited{
     color: white;
-}
-
-
-.nextslide{
-  
-    margin: auto;
-   margin-top:2em;
-    position: relative;
-}
-
-
-.triangle {
-    width:100px;   
-    height:1px;
-    position:relative;
-    margin:5px auto;
-    z-index: 1;
-}
-.triangle:before {
-content: "";
-width: 25px;
-height: 25px;
-position: absolute;
-top: -12.5px;
-margin-left: -12.5px;
-left: 50%;
-border-top: 2px solid #ba2d0b;
-border-left: 2px solid #ba2d0b;
-transform: rotateZ(-135deg);
-    z-index: 1;
-}
-.triangletwo {
-    width:200px;   
-    height:1px;
-    position:relative;
-    margin:10px auto;
-    z-index: 1;
-}
-.triangletwo:before {
-content: "";
-width: 50px;
-height: 50px;
-position: absolute;
-top: -25px;
-margin-left: -25px;
-left: 50%;
-border-top: 2px solid #ba2d0b;
-border-left: 2px solid #ba2d0b;
-transform: rotateZ(-135deg);
-    z-index: 1;
 }
 
 #behind{
@@ -268,8 +213,8 @@ transform: rotateZ(-135deg);
 .behindli{
     list-style-type: none;
     color: white;
-    font-family: 'Oswald Extralight';
-    padding: .1em;
+    font-family: 'Open Sans Condensed';
+    padding: .2em;
 }
 .behindli:hover{
     color:#ba2d0b;
@@ -287,48 +232,43 @@ transform: rotateZ(-135deg);
 }
 
 .styleweb{
-        background-image: url(img/style2.png);
+        background-image: url(img/style1.png);
     }
     
   .redesign{
-         background-image: url(img/redes2.png);
+         background-image: url(img/redes1.png);
     } 
      .simple{
-         background-image: url(img/simp2.png);
+         background-image: url(img/simp1.png);
     }
     
    .sprite{
-        background-image: url(img/spri2.png);
+        background-image: url(img/spri1.png);
     }
     .interanim{
-         background-image: url(img/inter2.png);
+         background-image: url(img/inter1.png);
     }
     .intertrail{
-         background-image: url(img/touch2.png);
-
+         background-image: url(img/touch1.png);
     }
     .projectone{
-         background-image: url(img/pone2.png);
-    
+         background-image: url(img/pone1.png);
     }
     .projecttwo{
-         background-image: url(img/ptwo2.PNG);
-       
+         background-image: url(img/ptwo1.PNG);
     }
     .digital{
-         background-image: url(img/hina2.png);
+         background-image: url(img/hina1.png);
     }
     .story{
-         background-image: url(img/story-no2.png);
-       
+         background-image: url(img/story1.png);
     }
     .city{  
-         background-image: url(img/two-lakes2.png);
-        
+         background-image: url(img/two-lakes1.png); 
     }
 h2{
     color: white;
-    font-family: 'Oswald Extralight';
+    font-family: 'Open Sans Condensed';
     margin:0;
     text-align: center;
 }
@@ -337,8 +277,6 @@ h2{
 
 @media all and (min-width:50em){
     
-    
-
     
     nav {
     max-height: 2.3em;
@@ -362,7 +300,6 @@ nav ul{
     margin-bottom: 0;
     float: right;
     }
-    
 
 
     label{
@@ -433,6 +370,7 @@ img.logo{
     #projects{
    display: grid;
    grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: .3fr 1fr 1fr 1fr 1fr;
     grid-gap: .5em;
     margin-top: 8%;      
 }    
@@ -440,17 +378,12 @@ img.logo{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 300px;
+        height: 320px;
      cursor:pointer;
         align-self: center;
         margin: auto;
         transition: all 0.03s;
     }
-   
-    .text{
-     display:none;
-    }
-  
     
     #behind{
         margin-top: 10%;

@@ -14,11 +14,11 @@ let city= document.querySelector(".city");
 
 style.addEventListener("mouseover", changeToStyle);
 function changeToStyle(){
-style.setAttribute("style","background-image:url('img/stylewe.png');"); 
+style.setAttribute("style","background-image:url('img/capture.png');"); 
 
 } style.addEventListener("mouseleave", changeBack);
 function changeBack(){
-style.setAttribute("style","background-image:url('img/style2.png');");
+style.setAttribute("style","background-image:url('img/style1.png');");
 }
 
 redesign.addEventListener("mouseover", changeToRe);
@@ -27,7 +27,7 @@ redesign.setAttribute("style","background-image:url('img/redes.png');");
 }
 redesign.addEventListener("mouseleave", changeBacks);
 function changeBacks(){
- redesign.setAttribute("style","background-image:url('img/redes2.png');");
+ redesign.setAttribute("style","background-image:url('img/redes1.png');");
 }
 
 simple.addEventListener("mouseover", changeToSi);
@@ -36,7 +36,7 @@ simple.setAttribute("style","background-image:url('img/simp.png');");
 }
  simple.addEventListener("mouseleave", changeBackss);
 function changeBackss(){
-simple.setAttribute("style","background-image:url('img/simp2.png');"); 
+simple.setAttribute("style","background-image:url('img/simp1.png');"); 
 }
 
 sprite.addEventListener("mouseover", changeToSp);
@@ -45,7 +45,7 @@ sprite.setAttribute("style","background-image:url('img/spri.png');");
 }
  sprite.addEventListener("mouseleave", changeBacksss);
 function changeBacksss(){
-sprite.setAttribute("style","background-image:url('img/spri2.png');"); 
+sprite.setAttribute("style","background-image:url('img/spri1.png');"); 
 }
 
 interanim.addEventListener("mouseover", changeToIn);
@@ -54,7 +54,7 @@ interanim.setAttribute("style","background-image:url('img/inter.png');");
 }
  interanim.addEventListener("mouseleave", changeBacks4);
 function changeBacks4(){
-interanim.setAttribute("style","background-image:url('img/inter2.png');"); 
+interanim.setAttribute("style","background-image:url('img/inter1.png');"); 
 }
 
 intertrail.addEventListener("mouseover", changeToI);
@@ -63,7 +63,7 @@ intertrail.setAttribute("style","background-image:url('img/touch.png');");
 }
  intertrail.addEventListener("mouseleave", changeBacks5);
 function changeBacks5(){
-intertrail.setAttribute("style","background-image:url('img/touch2.png')"); 
+intertrail.setAttribute("style","background-image:url('img/touch1.png')"); 
 }
 projectone.addEventListener("mouseover", changeToP1);
 function changeToP1(){
@@ -71,7 +71,7 @@ projectone.setAttribute("style","background-image:url('img/pone.png');");
 }
  projectone.addEventListener("mouseleave", changeBacks6);
 function changeBacks6(){
-projectone.setAttribute("style","background-image:url('img/pone2.png');"); 
+projectone.setAttribute("style","background-image:url('img/pone1.png');"); 
 }
 
 projecttwo.addEventListener("mouseover", changeToP2);
@@ -80,7 +80,7 @@ projecttwo.setAttribute("style","background-image:url('img/ptwo.png');;");
 }
  projecttwo.addEventListener("mouseleave", changeBacks7);
 function changeBacks7(){
-projecttwo.setAttribute("style","background-image:url('img/ptwo2.png');"); 
+projecttwo.setAttribute("style","background-image:url('img/ptwo1.png');"); 
 }
 
 digital.addEventListener("mouseover", changeToDi);
@@ -89,7 +89,7 @@ digital.setAttribute("style","background-image:url('img/hina.png');");
 }
  digital.addEventListener("mouseleave", changeBack8);
 function changeBack8(){
-digital.setAttribute("style","background-image:url('img/hina2.png');"); 
+digital.setAttribute("style","background-image:url('img/hina1.png');"); 
 }
 
 story.addEventListener("mouseover", changeToSt);
@@ -98,7 +98,7 @@ story.setAttribute("style","background-image:url('img/story-no.png');");
 }
  story.addEventListener("mouseleave", changeBacks9);
 function changeBacks9(){
-story.setAttribute("style","background-image:url('img/story-no2.png');"); 
+story.setAttribute("style","background-image:url('img/story1.png');"); 
 }
 
 city.addEventListener("mouseover", changeToCi);
@@ -107,5 +107,5 @@ city.setAttribute("style","background-image:url('img/two-lakes.png');");
 }
  city.addEventListener("mouseleave", changeBacks10);
 function changeBacks10(){
-city.setAttribute("style","background-image:url('img/two-lakes2.png');"); 
+city.setAttribute("style","background-image:url('img/two-lakes1.png');"); 
 }
